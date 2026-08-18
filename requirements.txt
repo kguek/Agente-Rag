@@ -1,0 +1,23 @@
+# Dipendenze dirette dell'agente RAG. Installa con:
+#   pip install -r requirements.txt
+
+# Vector store su disco
+langchain-chroma==1.1.0
+
+# Messaggi, Document e decoratore @tool
+langchain-core==1.5.4
+
+# Modello di chat e di embedding (Gemini)
+langchain-google-genai==4.3.3
+
+# Chunking: markdown per titoli + ricorsivo per lunghezza
+langchain-text-splitters==1.1.2
+
+# Il grafo dell'agente
+langgraph==1.2.11
+
+# Estrazione del testo dai PDF, pagina per pagina
+pypdf==6.16.1
+
+# Lettura della chiave API dal file .env
+python-dotenv==1.2.2

@@ -1,0 +1,15 @@
+# Chiave dell'API Gemini
+.env
+
+# Materiale personale e dati locali
+RAG_Piano_Lavoro.md
+RAG_Spiegazione.md
+RAG_Agent.py
+documenti/
+chroma_db/
+
+# Python
+__pycache__/
+.venv/
+venv/
+.claude/
