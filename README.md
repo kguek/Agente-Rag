@@ -6,12 +6,12 @@ allineato alla cartella dei documenti senza rifare tutto ogni volta.
 
 ## Da dove nasce
 
-È partito come unsa serie di esercizi di tutorial di LangGraph seguendo il video di freeCodeCamp.org. Nell'ultima sezione del video l'esercizio che proponeva era un grafo minimo con due nodi — il modello che decide, il tool che cerca — giusto per capire come si
+È partito come una serie di esercizi di tutorial di LangGraph seguendo il video di freeCodeCamp.org. Nell'ultima sezione del video l'esercizio che proponeva era un grafo minimo con due nodi — il modello che decide, il tool che cerca — giusto per capire come si
 costruisce un ciclo agentico e come lo stato passa da un nodo all'altro.
 
 Funzionava, ma era uno script monolitico: a ogni avvio ricalcolava gli
-embedding di tutti i documenti, e ogni prova costava quota API. Da lì il
-progetto è cresciuto dovuto alle mie curiositá ed in base ad un piano che ho richiesto di redarre a Claude su come progredirlo in base alle mie specifiche sono arrivato a questa versione basilare.
+embedding di tutti i documenti, e ad ogni prova costava quota API. Da lì il
+progetto è cresciuto dovuto alle mie curiositá ed in base ad un piano che ho richiesto di redarre a Claude su come progredirlo in base alle mie specifiche sono arrivato a questa versione.
 
 **gestione dell'indice**:
 
